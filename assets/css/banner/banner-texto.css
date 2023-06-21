@@ -1,0 +1,33 @@
+.banner__container{  
+    position: absolute; 
+    top: 40%;
+    left: 20%;
+}
+.banner__texto{
+    padding: 1rem;
+    position: relative;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 3rem;
+        &:hover{
+            color: rgb(10, 126, 116);
+            
+        }
+}
+.banner__texto:hover::after{
+    content: " Front-end Developer Student";
+    transition: content 5s;
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .banner__container{
+        position: absolute;
+        top: 70%;
+        
+
+    }
+}
+

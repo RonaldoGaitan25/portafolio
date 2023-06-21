@@ -1,0 +1,17 @@
+#particles-js{
+    height: 45rem;
+    width: 100%;
+    position: absolute;
+    background: cover;
+    z-index: -1;
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #particles-js{
+        height: 100rem;
+        width: 100%;
+      }
+}
+

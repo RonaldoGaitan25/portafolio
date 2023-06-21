@@ -1,0 +1,17 @@
+.formulario__container{
+    width: 100%;
+    background-color: rgb(237, 254, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.formulario__main{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+#mensaje{
+    resize: none;
+}

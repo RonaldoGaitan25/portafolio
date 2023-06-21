@@ -1,0 +1,21 @@
+.texto__container{
+    width: 100%;
+    background-color: rgb(191, 236, 240);
+    display: flex;
+    padding-top: 3rem;
+    height: 70vh;
+    
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .texto__container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        
+    }
+}
+

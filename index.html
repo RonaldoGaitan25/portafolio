@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Portafolio Personal</title>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Rajdhani:wght@300;400;700&family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/archivo-reset/reset.css">
+        <link rel="stylesheet" href="assets/css/linea-animacion.css">
+        <link rel="stylesheet" href="assets/css/body.css">
+        <link rel="stylesheet" href="assets/css/pariculas.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/formulario.css">
+    
+        
+        <link rel="stylesheet" href="assets/css/header/header-container.css">
+        <link rel="stylesheet" href="assets/css/header/header-nombre.css">
+        <link rel="stylesheet" href="assets/css/header/header-nav.css">
+        <link rel="stylesheet" href="assets/css/banner/banner-image.css">
+        <link rel="stylesheet" href="assets/css/banner/banner-texto.css">
+        <link rel="stylesheet" href="assets/css/texto-estilo/texto.css">
+        <link rel="stylesheet" href="assets/css/foto-perfil.css">
+        <link rel="stylesheet" href="assets/css/textos/texto-container.css">
+        <link rel="stylesheet" href="assets/css/textos/texto-container-hobbis.css">
+        <link rel="stylesheet" href="assets/css/textos/textos-titulo.css">
+        <link rel="stylesheet" href="assets/css/textos/parrafos-p.css">
+        <link rel="stylesheet" href="assets/css/hobbis-conf/imagen-container.css">
+        <link rel="stylesheet" href="assets/css/hobbis-conf/imagen-juegos.css">
+        <link rel="stylesheet" href="assets/css/lista-habilidades/lista-container.css">
+        <link rel="stylesheet" href="assets/css/lista-habilidades/lista-items.css">
+        <link rel="stylesheet" href="assets/css/portada-one.css">
+        <link rel="stylesheet" href="assets/css/boton/boton-curriculum.css">
+    </head>
+    <body>
+        
+        <header class="header__container">
+            <h1 class="header__nombre">RG</h1>
+            <nav>  
+                <ul>
+                    <li class="header__nav"><a href="#sobre">Sobre mí</a></li>
+                    <li class="header__nav"><a href="#hobbies">Hobbies y pasatiempos</a></li>
+                    <li class="header__nav"><a href="#formacion">Formación</a></li>
+                    <li class="header__nav"><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <div id="particles-js"></div>
+            <div class="linea"></div>
+
+            <section>
+                <div>
+                    <img class="banner__imagen" src="assets/imagen/banner.png" alt="imagen banner"> 
+                </div>
+
+                <div class="banner__container">
+                    <p class="banner__texto">Hi, I’m Ronaldo </p>
+                </div>
+            </section>
+
+            <section id="sobre">
+                <h1 class="texto__h1">Sobre Mí</h1>
+
+                <div class="texto__container">
+                    <img class="foto__perfil" src="assets/imagen/perfil.png" alt="foto-perfil">
+                    <p class="texto__p">
+                        Hola mi nombre es Ronaldo y este es mi primer portafolio digital, aunque no tengo mucha experiencia me entretuve mucho haciéndolo.<br>
+                        Tengo 25 años.<br>
+                        Soy de Panamá el país que une dos continentes, lo has de conocer por su principal obra interoceánica el "Canal de Panamá".                    
+                    </p>
+                </div>
+            </section>
+
+            <section id="hobbies">
+                <h1 class="texto__h1">Hobbies y pasatiempos</h1>
+
+                <div class="texto__container2">
+                    <p class="texto__p">En general lo que mas me gusta son los video juegos en computadora, me llaman mas la atencion los mmorpg, rpg, Arpg, aventura, supervivencia.</p>
+                    <div class="imagen__container">
+                        <img class="imagen__juego" src="assets/imagen/juego1.jpg" alt="imagen juego">
+                        <img class="imagen__juego" src="assets/imagen/juego2.png" alt="imagen juego">
+                    </div>
+                </div>
+                <div class="texto__container2">
+                    <p class="texto__p">Tambien me gusta editar fotos, imagenes o crear desde cero como por ejemplo mi banner.</p>
+                    <div class="imagen__container">
+                        <img class="imagen__juego" src="assets/imagen/diseño1.png" alt="ejemplo de logo">
+                        <img class="imagen__juego" src="assets/imagen/diseño.png" alt="como se armo el banner">
+                    </div>
+                </div>
+                
+                <div class="lista__container">
+                    <h2>Habilidades Blandas</h2>
+                    <ul class="lista">
+                        <li class="lista__item">Liderazgo</li>
+                        <li class="lista__item">Trabajo en equipo</li>
+                        <li class="lista__item">Responsabilidad</li>
+                        <li class="lista__item">Respeto</li>
+                        <li class="lista__item">Aprender Rapido</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="formacion">
+                <h1 class="texto__h1">Formación</h1>
+                <div class="texto__container2">
+                    <p class="texto__p">Actualmente en 2023 estudiante en desarrollo Front-End de Alura Latam
+                        Es mi primer curso enfocado en estos temas.</p>
+                    <div class="imagen__container">
+                        <img class="imagen__portada" src="assets/imagen/estudiante.png" alt="portada estudiante">
+                    </div>
+                    <div class="boton__container">
+                        <button class="boton__"><a href="assets/imagen/CurrculumRonaldoGaitan.pdf" target="_blank">Curriculum PDF</a></button>
+                    </div>
+                </div>  
+            </section>
+            
+            <section id="contacto">
+                <h1 class="texto__h1">Contacto</h1>
+                <div class="formulario__container">
+                    <form action="https://formsubmit.co/inferfactor@gmail.com" method="POST">
+                        <label class="formulario__main" for="email">Correo electrónico:</label>
+                        <input class="formulario__main" type="email" id="email" name="email" required>
+                    
+                        <label class="formulario__main"  for="asunto">Asunto:</label>
+                        <input class="formulario__main" type="text" id="asunto" name="asunto" required>
+                    
+                        <label class="formulario__main" for="mensaje">Mensaje:</label>
+                        <textarea class="formulario__main" id="mensaje" name="mensaje" required></textarea>
+                        <div  class="boton__container">
+                            <button class="boton__" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <footer>
+                
+                <div class="footer__container">
+                    <p class="p__redes">Mis Redes</p>
+                    <ul class="footer__ul">
+                        <li class="footer__icono"><a href="#"><img class="footer__logo" src="assets/imagen/facebook.png" alt="logo-facebook"></a></li>
+                        <li class="footer__icono"><a href="#"><img class="footer__logo" src="assets/imagen/instagram.png" alt="logo-intagram"></a></li>
+                        <li class="footer__icono"><a href="#"><img class="footer__logo" src="assets/imagen/linkedin .png" alt="logo-linkedin"></a></li>
+                    </ul>
+                    <p class="footer__creador">Protafolio personal v.1 creado por Ronaldo Gaitan</p>
+                </div>
+            </footer>
+        </main>
+        <script src="./assets/codigo.js/particles.min.js"></script>
+        <script src="./assets/codigo.js/particulas.js"></script>
+    </body>
+</html>

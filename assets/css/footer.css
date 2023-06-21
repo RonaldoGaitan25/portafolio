@@ -1,0 +1,35 @@
+.footer__logo{
+    height: 50px;
+
+    
+}
+
+.footer__container{
+    width: 100%;
+    background-color: rgb(1, 24, 24);
+    border-bottom: 4px solid #010a0a;
+    border-top: 4px solid #010a0a;
+
+
+}
+.footer__ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 7rem;
+    
+
+}
+.footer__icono{
+    display: inline-block; 
+    
+
+}
+.footer__icono:hover{
+    transform: scale(1.5);
+}
+.footer__creador{
+    margin: 1rem;
+    color: rgb(105, 133, 134);
+    font-style: italic;
+    font-family: 'Rajdhani', sans-serif;
+}

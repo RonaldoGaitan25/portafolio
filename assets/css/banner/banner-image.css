@@ -1,0 +1,25 @@
+.banner__imagen{
+    background: no-repeat center / cover;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    z-index: -2;    
+}
+
+@media screen and (min-width: 0px) {
+  .banner__imagen{
+    height: calc(80vh - 72px);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .banner__imagen{
+    height: calc(90vh - 52px) ;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .banner__imagen{
+    height: 90vh;
+  }
+}

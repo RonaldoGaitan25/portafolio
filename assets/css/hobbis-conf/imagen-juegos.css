@@ -1,0 +1,10 @@
+.imagen__juego{
+    width: 500px;
+    height: 300px;
+    border: 4px solid #023d3d;
+    
+        &:hover{
+            transform: scale(1.2);
+        }
+    
+}

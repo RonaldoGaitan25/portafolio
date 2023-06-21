@@ -1,0 +1,10 @@
+.lista__container{
+    width: 100%;
+    background-color: rgb(191, 236, 240);
+    display: block;
+    padding-top: 3rem;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}

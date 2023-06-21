@@ -1,0 +1,12 @@
+.texto__p{
+    margin: 5rem;
+    padding-bottom: 3rem;
+}
+.p__redes{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color:  rgb(105, 133, 134);
+    padding-top: 1rem;
+}
+
